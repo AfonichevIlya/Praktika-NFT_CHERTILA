@@ -1,7 +1,5 @@
-head {
-  display: flex;
-}
 body {
+  max-width: 1600px;
   background-color: #0a0c26;
 }
 .krug {
@@ -18,7 +16,7 @@ body {
   border-radius: 100%;
   border: 40px solid #0a0c26;
 }
-.chert {
+.image {
   position: relative;
   margin-left: 1040px;
   margin-top: -560px;
@@ -89,15 +87,7 @@ body {
   border-radius: 100%;
   z-index: -40;
 }
-
-.logo {
-  width: 100px;
-  height: 50px;
-  margin-left: 265px;
-  margin-top: 25px;
-  align-items: flex-start;
-}
-.blur {
+.body__blur {
   margin-left: -200px;
   margin-top: -1200px;
   width: 500px;
@@ -105,10 +95,10 @@ body {
   background: rgba(203, 71, 160, 0.6);
   filter: blur(300px);
 }
-.text {
+.body__text {
   margin-top: 209px;
   margin-left: 261px;
-  width: 500px;
+  width: 400px;
   height: 200px;
   color: #f8f6fa;
   font-size: 55px;
@@ -117,9 +107,9 @@ body {
   font-family: "Oswald", sans-serif;
 }
 
-.nft {
-  margin-top: -163px;
-  margin-left: 445px;
+.body__nft {
+  margin-top: -167px;
+  margin-left: 400px;
   font-family: "Oswald", sans-serif;
   font-size: 60px;
   text-transform: uppercase;
@@ -134,23 +124,25 @@ body {
   display: table;
   font-weight: 700;
 }
-.content1 {
-  flex-direction: column;
-  margin-top: -55px;
+.body__content {
+  margin-top: -30px;
+  margin-left: 20px;
 }
-.knopki2 {
+
+.body__knopki {
+  display: flex;
   flex-direction: row;
-  margin-top: 100px;
 }
-.text2 {
+.body__text2 {
   margin-top: -15px;
   margin-left: 265px;
   width: 400px;
   color: #f8f6fab4;
   line-height: 30px;
   font-family: "Oswald", sans-serif;
+  font-weight: 300;
 }
-.button1 {
+.body__button_BILD_NOW {
   margin-left: 265px;
   margin-top: 35px;
   width: 160px;
@@ -162,8 +154,9 @@ body {
   border: none;
   cursor: pointer;
 }
-.button2 {
+.body__button_LEARN_MORE {
   margin-left: 30px;
+  margin-top: 35px;
   width: 160px;
   height: 50px;
   font-size: small;
@@ -174,9 +167,10 @@ body {
   -moz-border-image: -moz-linear-gradient(#c726b5, #4474db);
   -webkit-border-image: -webkit-linear-gradient(110deg, #c726b5, #4474db);
   border-image-slice: 2;
+  color: #f8f6fa;
   cursor: pointer;
 }
-.timer {
+.body__timer {
   display: flex;
   justify-content: space-around;
   width: 411px;
@@ -185,21 +179,23 @@ body {
   margin-top: 63px;
   margin-left: 265px;
 }
-.chertIkrug {
-  margin-top: -775px;
+.body__image {
+  margin-top: -800px;
 }
-.info {
+.body__info {
   padding-right: 40px;
   border-right: 1px solid rgb(202, 202, 202);
   margin-top: 25px;
   margin-bottom: 25px;
   font-size: small;
   font-family: "Oswald", sans-serif;
+  color: #f8f6fa;
 }
-.price {
+.body__price {
   font-weight: 600;
+  color: #f8f6fa;
 }
-.info-time {
+.body__info-time {
   margin-right: 10px;
   margin-top: 5px;
   font-size: small;
@@ -207,8 +203,10 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Oswald", sans-serif;
+  color: #f8f6fa;
 }
-.knopki {
+.header__menu {
+  color: #f8f6fa;
   margin-top: -25px;
   font-size: small;
   position: relative;
@@ -220,41 +218,4 @@ body {
   align-items: flex-start;
   font-family: "Oswald", sans-serif;
   z-index: 20;
-}
-.button3 {
-  margin-top: -17px;
-  width: 160px;
-  height: 50px;
-  color: #f8f6fa;
-  font-size: small;
-  background: linear-gradient(90deg, #eb11aa, #2e81e2);
-  font-family: "Oswald", sans-serif;
-  border: none;
-  cursor: pointer;
-}
-
-.home {
-  background: transparent;
-  border: none;
-  cursor: pointer;
-}
-
-.feature {
-  background: transparent;
-  border: none;
-  cursor: pointer;
-}
-.product {
-  background: transparent;
-  border: none;
-  cursor: pointer;
-}
-.contact {
-  background: transparent;
-  border: none;
-  cursor: pointer;
-}
-.knopki2 {
-  margin-left: 430px;
-  margin-top: -50px;
 }
