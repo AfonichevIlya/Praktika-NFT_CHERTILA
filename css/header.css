@@ -1,43 +1,40 @@
-.header__BILD_NOW {
-  margin-top: -17px;
-  width: 160px;
-  height: 50px;
+a {
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  font-size: medium;
+  font-weight: 300;
   color: #f8f6fa;
-  font-size: small;
+}
+.header__logo-wrapper {
+  display: flex;
+  margin-left: 285px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 47px;
+  z-index: 10;
+}
+.header__knopki {
+  margin-right: -30%;
+}
+.header__spisok {
+  display: flex;
+  min-width: 400px;
+  justify-content: space-around;
+  align-items: center;
+}
+.header__BILD_NOW {
+  display: flex;
+  margin-right: 12%;
+}
+.header__knopka {
+  color: #f8f6fa;
+  font-size: medium;
+  font-weight: 400;
+  padding: 15px 50px;
   background: linear-gradient(90deg, #eb11aa, #2e81e2);
   font-family: "Oswald", sans-serif;
-  border: none;
   cursor: pointer;
-}
-
-.header__home {
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  color: #f8f6fa;
-}
-
-.header__feature {
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  color: #f8f6fa;
-}
-.header__product {
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  color: #f8f6fa;
-}
-.header__contact {
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  color: #f8f6fa;
-}
-.header__logo {
-  width: 100px;
-  height: 50px;
-  margin-left: 285px;
-  margin-top: 25px;
 }
