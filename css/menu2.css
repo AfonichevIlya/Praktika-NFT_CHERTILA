@@ -1,0 +1,137 @@
+.menu2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 700px;
+  min-width: 1000px;
+}
+.Art_Work {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+}
+.Aucation {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+}
+.body__stats {
+  margin-top: -300px;
+  min-height: 200px;
+  min-width: 200px;
+  background-color: rgb(255, 255, 255, 0.5);
+}
+.body__stats1 {
+  color: rgb(255, 255, 255, 0.85);
+  display: flex;
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  justify-content: space-around;
+  max-width: 1000px;
+  margin-left: 25%;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.body__blur1 {
+  margin-left: -200px;
+  width: 400px;
+  height: 400px;
+  background: rgba(203, 71, 160, 0.8);
+  filter: blur(270px);
+}
+.body__blur2 {
+  margin-top: -400px;
+  margin-left: 1500px;
+  width: 300px;
+  height: 300px;
+  background: rgba(0, 255, 133, 1);
+  filter: blur(300px);
+}
+.menu2__content {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 300px;
+}
+.body__arts {
+  z-index: 10;
+  min-width: 536px;
+  margin-top: 130px;
+  display: flex;
+  margin-left: -150px;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.body__arts1 {
+  display: flex;
+  justify-content: space-around;
+  min-width: 300px;
+}
+.body__arts2 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.menu2__text {
+  margin-top: 200px;
+  margin-right: 317px;
+  min-width: 300px;
+}
+
+.menu__text {
+  max-width: 300px;
+  line-height: 120%;
+  color: #f8f6fa;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
+}
+
+.menu2__nft {
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 204, 255, 1) 0%,
+    rgba(0, 255, 133, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0b2349;
+  display: table;
+  font-weight: 600;
+  margin-top: -70px;
+  margin-left: 125px;
+}
+.menu__text1 {
+  margin-top: -67px;
+  margin-left: 195px;
+  color: #f8f6fa;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
+}
+.menu2__text2 {
+  max-width: 300px;
+  min-width: 100px;
+  color: #f8f6fab4;
+  line-height: 30px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+}
+.menu__2-knopka {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  max-width: 160px;
+  min-height: 50px;
+  color: #f8f6fa;
+  font-size: small;
+  background: linear-gradient(90deg, #eb11aa, #2e81e2);
+  font-family: "Oswald", sans-serif;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
