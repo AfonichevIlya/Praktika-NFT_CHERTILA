@@ -1,0 +1,199 @@
+.menu4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.menu4__text {
+  display: flex;
+  margin-top: 110px;
+  min-width: 385px;
+  justify-content: space-between;
+}
+.menu4__text1 {
+  color: #f8f6fa;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
+}
+.menu4__nft {
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 204, 255, 1) 0%,
+    rgba(0, 255, 133, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0b2349;
+  display: table;
+  font-weight: 600;
+}
+.menu4__text2 {
+  color: #f8f6fa;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
+}
+.menu4__menu {
+  display: flex;
+}
+.menu4__spisok1 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  min-width: 1000px;
+}
+.menu4__all_collection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 160px;
+  min-height: 50px;
+  color: #f8f6fa;
+  font-size: medium;
+  background: linear-gradient(90deg, #eb11aa, #2e81e2);
+  font-family: "Oswald", sans-serif;
+  border: none;
+  cursor: pointer;
+}
+.menu4__art {
+  display: flex;
+  color: #f8f6fa;
+  font-size: medium;
+  justify-content: center;
+  align-items: center;
+  min-width: 160px;
+  min-height: 50px;
+  background-color: rgb(255, 255, 255, 0.1);
+}
+.menu4__music {
+  display: flex;
+  color: #f8f6fa;
+  font-size: medium;
+  justify-content: center;
+  align-items: center;
+  min-width: 160px;
+  min-height: 50px;
+  background-color: rgb(255, 255, 255, 0.1);
+}
+.menu4__games {
+  display: flex;
+  color: #f8f6fa;
+  font-size: medium;
+  justify-content: center;
+  align-items: center;
+  min-width: 160px;
+  min-height: 50px;
+  background-color: rgb(255, 255, 255, 0.1);
+}
+.menu4__photography {
+  display: flex;
+  color: #f8f6fa;
+  font-size: medium;
+  justify-content: center;
+  align-items: center;
+  min-width: 160px;
+  min-height: 50px;
+  background-color: rgb(255, 255, 255, 0.1);
+}
+.menu4__blocks {
+  display: flex;
+  min-width: 1100px;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.menu4__block1 {
+  display: flex;
+  flex-direction: column;
+  min-width: 345px;
+  min-height: 399px;
+  background-color: rgb(255, 255, 255, 0.1);
+}
+.menu4__block_content1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.menu4__block_content2 {
+  display: flex;
+  flex-direction: column;
+  max-width: 285px;
+  margin-left: 30px;
+}
+.menu4__block_content3 {
+  display: flex;
+  justify-content: space-between;
+}
+.menu4__block_text {
+  color: #f8f6fa;
+  font-size: 13px;
+  font-weight: 300;
+  font-family: "Oswald", sans-serif;
+  max-width: max-content;
+}
+
+.menu4__knopka {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 60px;
+  max-height: 45px;
+  color: #f8f6fa;
+  font-size: smaller;
+  background: linear-gradient(90deg, #eb11aa, #2e81e2);
+  font-family: "Oswald", sans-serif;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.menu4__block_content4 {
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-between;
+}
+
+.menu4__block_text2 {
+  display: block;
+  margin-top: -10px;
+  color: #f8f6fa;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  max-width: max-content;
+}
+.menu4__block2 {
+  display: flex;
+  flex-direction: column;
+  min-width: 345px;
+  min-height: 399px;
+  background-color: rgb(255, 255, 255, 0.1);
+}
+
+.menu4__price {
+  color: rgb(0, 255, 200);
+}
+.menu4__block3 {
+  display: flex;
+  flex-direction: column;
+  min-width: 345px;
+  min-height: 399px;
+  background-color: rgb(255, 255, 255, 0.1);
+}
+.menu4__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  min-width: 100%;
+  min-height: 200px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.menu4__logo1 {
+  display: flex;
+  min-width: 1000px;
+  justify-content: space-around;
+}

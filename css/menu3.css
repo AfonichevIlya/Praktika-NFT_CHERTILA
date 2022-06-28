@@ -62,7 +62,7 @@
   cursor: pointer;
   font-size: 20px;
 }
-.menu__content2 {
+.menu3__content2 {
   margin-top: 150px;
   display: flex;
   min-width: 730px;
@@ -97,7 +97,7 @@
   flex-direction: column;
   display: flex;
   align-items: center;
-  margin-top: 60px;
+  margin-top: 65px;
   justify-content: center;
   min-width: 324px;
   min-height: 203px;
@@ -118,7 +118,7 @@
   flex-direction: column;
   display: flex;
   align-items: center;
-  margin-top: 60px;
+  margin-top: 65px;
   justify-content: center;
   min-width: 324px;
   min-height: 203px;
