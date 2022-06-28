@@ -186,14 +186,28 @@
 .menu4__logo {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 100px;
   min-width: 100%;
-  min-height: 200px;
-  background-color: rgba(255, 255, 255, 0.5);
+  max-height: 200px;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .menu4__logo1 {
   display: flex;
   min-width: 1000px;
   justify-content: space-around;
+}
+.menu4__blur1 {
+  margin-left: -200px;
+  width: 300px;
+  height: 300px;
+  background: rgb(255, 0, 170);
+  filter: blur(250px);
+}
+.menu4__blur2 {
+  margin-left: -200px;
+  width: 300px;
+  height: 300px;
+  background: rgba(0, 255, 133, 1);
+  filter: blur(250px);
 }
