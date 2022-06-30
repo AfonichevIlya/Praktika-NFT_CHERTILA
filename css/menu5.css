@@ -86,7 +86,8 @@
 }
 .menu5__krugi {
   position: relative;
-  margin-top: -100px;
+  margin-top: -350px;
+  opacity: 0.3;
 }
 .menu5__krugi2 {
   display: flex;
@@ -102,13 +103,12 @@
     89.96deg,
     #cb47a0 0.02%,
     #6947cb 49.47%,
-    #00ff85 99.97%,
-    0.3
+    #00ff85 99.97%
   );
   width: 75px;
   height: 75px;
   border-radius: 100%;
-  box-shadow: 0px 0px 0px 9px rgb(8, 6, 24, 0.6);
+  box-shadow: 0px 0px 0px 9px rgb(8, 6, 24, 0.8);
 }
 .menu5__krug1 {
   position: absolute;
@@ -119,13 +119,12 @@
     89.96deg,
     #cb47a0 0.02%,
     #6947cb 49.47%,
-    #00ff85 99.97%,
-    0.3
+    #00ff85 99.97%
   );
   width: 105px;
   height: 105px;
   border-radius: 100%;
-  box-shadow: 0px 0px 0px 9px rgb(8, 6, 24, 0.6);
+  box-shadow: 0px 0px 0px 9px rgb(8, 6, 24, 0.8);
 }
 .menu5__krug2 {
   position: absolute;
@@ -136,13 +135,12 @@
     89.96deg,
     #cb47a0 0.02%,
     #6947cb 49.47%,
-    #00ff85 99.97%,
-    0.3
+    #00ff85 99.97%
   );
   width: 135px;
   height: 135px;
   border-radius: 100%;
-  box-shadow: 0px 0px 0px 9px rgb(8, 6, 24, 0.6);
+  box-shadow: 0px 0px 0px 9px rgb(8, 6, 24, 0.8);
 }
 .menu5__krug3 {
   position: absolute;
@@ -153,13 +151,12 @@
     89.96deg,
     #cb47a0 0.02%,
     #6947cb 49.47%,
-    #00ff85 99.97%,
-    0.3
+    #00ff85 99.97%
   );
   width: 165px;
   height: 165px;
   border-radius: 100%;
-  box-shadow: 0px 0px 0px 9px rgb(8, 6, 24, 0.6);
+  box-shadow: 0px 0px 0px 9px rgb(8, 6, 24, 0.8);
 }
 
 .menu5__krug4 {
@@ -171,13 +168,12 @@
     89.96deg,
     #cb47a0 0.02%,
     #6947cb 49.47%,
-    #00ff85 99.97%,
-    0.3
+    #00ff85 99.97%
   );
   width: 195px;
   height: 195px;
   border-radius: 100%;
-  box-shadow: 0px 0px 0px 9px rgb(8, 6, 24, 0.6);
+  box-shadow: 0px 0px 0px 9px rgb(8, 6, 24, 0.8);
 }
 .menu5__krug5 {
   position: absolute;
@@ -188,13 +184,12 @@
     89.96deg,
     #cb47a0 0.02%,
     #6947cb 49.47%,
-    #00ff85 99.97%,
-    0.3
+    #00ff85 99.97%
   );
   width: 225px;
   height: 225px;
   border-radius: 100%;
-  box-shadow: 0px 0px 0px 9px rgb(8, 6, 24, 0.6);
+  box-shadow: 0px 0px 0px 9px rgb(8, 6, 24, 0.8);
 }
 .menu5__krug6 {
   position: absolute;
@@ -205,13 +200,12 @@
     89.96deg,
     #cb47a0 0.02%,
     #6947cb 49.47%,
-    #00ff85 99.97%,
-    0.3
+    #00ff85 99.97%
   );
   width: 255px;
   height: 255px;
   border-radius: 100%;
-  box-shadow: 0px 0px 0px 9px rgb(8, 6, 24, 0.6);
+  box-shadow: 0px 0px 0px 9px rgb(8, 6, 24, 0);
 }
 .menu5__krugi_text {
   display: flex;
