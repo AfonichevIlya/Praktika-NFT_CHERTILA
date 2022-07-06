@@ -189,12 +189,18 @@
   justify-content: space-between;
   margin-top: 100px;
   min-width: 100%;
-  max-height: 200px;
-  background-color: rgba(255, 255, 255, 0.3);
+  max-height: 250px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 172, 244, 0.308) 0%,
+    rgba(188, 154, 252, 0.452) 50%,
+    rgba(163, 249, 255, 0.363) 100%
+  );
 }
 .menu4__logo1 {
   display: flex;
   min-width: 1000px;
+  max-height: 300px;
   justify-content: space-around;
 }
 .menu4__blur1 {

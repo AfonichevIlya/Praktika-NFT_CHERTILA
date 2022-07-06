@@ -1,5 +1,6 @@
 .footer {
   display: flex;
+  margin-top: 100px;
 }
 .footer__content {
   display: flex;
@@ -8,7 +9,12 @@
   margin-top: 200px;
   min-width: 100%;
   max-height: 106px;
-  background-color: rgba(255, 255, 255, 0.3);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 156, 242, 0.308) 0%,
+    rgba(181, 141, 255, 0.452) 50%,
+    rgba(147, 248, 255, 0.363) 100%
+  );
   overflow: hidden;
 }
 .footer__content1 {
