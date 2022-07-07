@@ -62,27 +62,35 @@ body {
   flex-direction: row;
   margin-top: 30px;
   max-width: 350px;
+  padding: 20px 0px;
 }
-.body__button_BILD_NOW {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-width: 160px;
-  min-height: 50px;
+.body__knopka1 {
   color: #f8f6fa;
-  font-size: small;
+  font-size: medium;
+  font-weight: 400;
+  padding: 14px 50px;
   background: linear-gradient(90deg, #eb11aa, #2e81e2);
   font-family: "Oswald", sans-serif;
-  border: none;
   cursor: pointer;
 }
-.body__button_LEARN_MORE {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-width: 160px;
-  min-height: 50px;
-  font-size: small;
+
+.body__button_BILD_NOW :hover {
+  color: #f8f6fa;
+  font-size: medium;
+  font-weight: 400;
+  padding: 14px 50px;
+  font-family: "Oswald", sans-serif;
+  cursor: pointer;
+  box-shadow: inset 0px 0px 0px 2px rgb(0, 255, 191);
+  border-radius: 15px;
+  transition: all 0.4s;
+}
+
+.body__knopka2 {
+  color: #f8f6fa;
+  font-size: medium;
+  font-weight: 400;
+  padding: 14px 45px;
   background-color: rgb(23, 24, 87, 0.1);
   font-family: "Oswald", sans-serif;
   border: 1px solid transparent;
@@ -90,8 +98,20 @@ body {
   -moz-border-image: -moz-linear-gradient(#c726b5, #4474db);
   -webkit-border-image: -webkit-linear-gradient(110deg, #c726b5, #4474db);
   border-image-slice: 2;
-  color: #f8f6fa;
   cursor: pointer;
+}
+.body__button_LEARN_MORE :hover {
+  color: #f8f6fa;
+  font-size: medium;
+  font-weight: 400;
+  padding: 14px 45px;
+  background-color: rgba(62, 62, 104, 0.452);
+  font-family: "Oswald", sans-serif;
+  cursor: pointer;
+  box-shadow: inset 0px 0px 0px 1px rgb(0, 255, 191);
+  border-radius: 15px;
+  transition: all 0.4s;
+  border: 1px solid rgb(23, 24, 87, 0.1);
 }
 .body__price-timer {
   display: flex;
