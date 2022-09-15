@@ -22,9 +22,10 @@
     <link rel="stylesheet" href="./css/menu4.css" />
     <link rel="stylesheet" href="./css/menu5.css" />
     <link rel="stylesheet" href="./css/footer.css" />
-    <link rel="stylesheet" href="./css/mobil.css" />
-  </head>
+    <link rel="stylesheet" href="./css/adaptation.css">
+   
   <body id="wrapper">
+    
     <header class="header">
       <div class="header__logo-wrapper">
         <img class="header__logo-img" src="./images/logo.svg" alt="" />
@@ -43,6 +44,35 @@
     </header>
 
     <div class="menu1">
+      <div class="scrollup">
+        <i class="fa-chevron-up">^</i>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+      <script>
+        $(function() {
+          // при нажатии на кнопку scrollup
+          $('.scrollup').click(function() {
+            // переместиться в верхнюю часть страницы
+            $("html, body").animate({
+              scrollTop:0
+            },1000);
+          })
+        })
+        // при прокрутке окна (window)
+        $(window).scroll(function() {
+          // если пользователь прокрутил страницу более чем на 200px
+          if ($(this).scrollTop()>200) {
+            // то сделать кнопку scrollup видимой
+            $('.scrollup').fadeIn();
+          }
+          // иначе скрыть кнопку scrollup
+          else {
+            $('.scrollup').fadeOut();
+          }
+        });
+        </script>
+
+    </head>
       <div class="body__content">
         <div class="body__text">
           <h1 class="body__text1">The beauty of every</h1>
@@ -156,6 +186,7 @@
         <div>
           <a href="#" class="menu__3-knopka">SEE MORE</a>
         </div>
+       
       </div>
       <div class="menu3__content2">
         <div class="menu__content3">
@@ -412,7 +443,7 @@
         <div class="menu5__krugi_text">
           <h1 class="menu5__text5">Creat Your</h1>
           <h1 class="menu5__nft5">NFT</h1>
-          <h2>
+          <h2 class="">
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
             sint. Velit officia consequat duis enim velit mollit. <br />
             Exercitation veniam consequat sunt nostrud amet.

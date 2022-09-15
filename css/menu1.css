@@ -1,5 +1,5 @@
 body {
-  max-width: 1920px;
+  max-width: 980px;
   background-color: #0a0c26;
 }
 .menu1 {
@@ -265,4 +265,23 @@ body {
   height: 500px;
   background: rgba(203, 71, 160, 0.6);
   filter: blur(300px);
+}
+div.scrollup {
+  position: fixed;
+  color: #fff;
+  background-color: rgba(203, 71, 160, 0.8);
+  margin-right: 20px;
+  bottom: 0px;
+  padding: 7px 21px;
+  max-height: 25px;
+  font-size: 40px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 1600px;
+  z-index: 1000;
+}
+div.scrollup:hover {
+  background-color: rgba(0, 255, 133, 0.5);
 }
