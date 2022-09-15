@@ -81,7 +81,7 @@ body {
   padding: 14px 50px;
   font-family: "Oswald", sans-serif;
   cursor: pointer;
-  box-shadow: inset 0px 0px 0px 2px rgb(0, 255, 191);
+  box-shadow: inset 0px 0px 0px 1px rgb(0, 255, 191);
   border-radius: 15px;
   transition: all 0.4s;
 }
