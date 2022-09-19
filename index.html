@@ -42,36 +42,27 @@
         <a href="#" class="header__knopka">BILD NOW</a>
       </div>
     </header>
-
     <div class="menu1">
-      <div class="scrollup">
-        <i class="fa-chevron-up">^</i>
-      </div>
+      <div class="scrollup">^
+     
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
       <script>
         $(function() {
-          // при нажатии на кнопку scrollup
           $('.scrollup').click(function() {
-            // переместиться в верхнюю часть страницы
             $("html, body").animate({
               scrollTop:0
             },1000);
           })
         })
-        // при прокрутке окна (window)
         $(window).scroll(function() {
-          // если пользователь прокрутил страницу более чем на 200px
-          if ($(this).scrollTop()>200) {
-            // то сделать кнопку scrollup видимой
+          if ($(this).scrollTop()>300) {
             $('.scrollup').fadeIn();
           }
-          // иначе скрыть кнопку scrollup
           else {
             $('.scrollup').fadeOut();
           }
         });
-        </script>
-
+        </script> </div>
     </head>
       <div class="body__content">
         <div class="body__text">
@@ -354,10 +345,10 @@
       <div class="menu4__logo">
         <div class="menu4__blur1"></div>
         <div class="menu4__logo1">
-          <img src="./images/ucraft.svg" alt="" />
-          <img src="./images/logitech.svg" alt="" />
-          <img src="./images/chopped.svg" alt="" />
-          <img src="./images/illusion.svg" alt="" />
+          <img class="menu4__img228" src="./images/ucraft.svg" alt="" />
+          <img class="menu4__img228"  src="./images/logitech.svg" alt="" />
+          <img class="menu4__img228"  src="./images/chopped.svg" alt="" />
+          <img class="menu4__img228"  src="./images/illusion.svg" alt="" />
         </div>
         <div class="menu4__blur2"></div>
       </div>
@@ -443,7 +434,7 @@
         <div class="menu5__krugi_text">
           <h1 class="menu5__text5">Creat Your</h1>
           <h1 class="menu5__nft5">NFT</h1>
-          <h2 class="">
+          <h2 class="menu5__text_6">
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
             sint. Velit officia consequat duis enim velit mollit. <br />
             Exercitation veniam consequat sunt nostrud amet.

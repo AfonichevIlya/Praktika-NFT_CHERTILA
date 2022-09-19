@@ -1,6 +1,5 @@
 .menu3 {
   display: flex;
-  min-width: 850px;
   justify-content: space-around;
 }
 .menu3__content1 {
