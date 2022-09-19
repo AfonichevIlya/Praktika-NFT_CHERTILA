@@ -277,7 +277,7 @@ div.scrollup {
   border-top-right-radius: 7px;
   cursor: pointer;
   text-align: center;
-  margin-right: -1600px;
+  margin-right: -80%;
   z-index: 1000;
 }
 div.scrollup:hover {

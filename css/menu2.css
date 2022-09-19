@@ -108,6 +108,7 @@
   margin-left: 125px;
 }
 .menu__text1 {
+  min-width: 100px;
   margin-top: -67px;
   margin-left: 195px;
   color: #f8f6fa;
